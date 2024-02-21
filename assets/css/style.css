@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+}
+
+
 #nav-viajes {
     font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
@@ -5,4 +10,21 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+}
+
+/*Parametros Generales Containers*/
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+}
+
+.row {
+    text-align: center;
+}
+
+.text_section {
+    text-align: justify;
+
 }
