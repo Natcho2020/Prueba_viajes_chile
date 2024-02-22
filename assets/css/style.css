@@ -1,7 +1,26 @@
 body {
     background-color: black;
+    color: white;
 }
 
+header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    background-color: grey;
+
+
+}
+
+#viajes {
+    width: 45px;
+    padding-right: 3px;
+
+}
 
 #nav-viajes {
     font-family: "Fredoka", sans-serif;
@@ -12,12 +31,13 @@ body {
         "wdth" 100;
 }
 
+
+
 /*Parametros Generales Containers*/
 
 .container {
     width: 75%;
     margin: 0 auto;
-    color: white;
 }
 
 .row {
@@ -36,4 +56,25 @@ body {
 
 #caja_icon {
     background-color: aqua;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+
+}
+
+footer {
+    background-color: aqua;
+    padding: 4px;
+
+}
+
+footer .text {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
