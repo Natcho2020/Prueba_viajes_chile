@@ -28,3 +28,12 @@ body {
     text-align: justify;
 
 }
+
+.card {
+    background-color: aqua;
+    color: white;
+}
+
+#caja_icon {
+    background-color: aqua;
+}
