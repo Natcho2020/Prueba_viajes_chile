@@ -1,8 +1,11 @@
+/*Parametros Generales*/
+
 body {
     background-color: black;
     color: white;
 }
 
+/*Extender el Carrusel en el Header*/
 header {
     background-position: center;
     background-repeat: no-repeat;
@@ -10,9 +13,9 @@ header {
 
 }
 
+/*Ajustes Navbar*/
 .navbar {
     background-color: grey;
-
 
 }
 
@@ -21,6 +24,8 @@ header {
     padding-right: 3px;
 
 }
+
+/*Uso Google-Fonts*/
 
 #nav-viajes {
     font-family: "Fredoka", sans-serif;
@@ -33,7 +38,7 @@ header {
 
 
 
-/*Parametros Generales Containers*/
+/*Parametros Generales Contenedores para correcto uso de Bootsrap*/
 
 .container {
     width: 75%;
@@ -63,6 +68,8 @@ header {
     color: white;
 
 }
+
+/*Parametros Footer*/
 
 footer {
     background-color: aqua;

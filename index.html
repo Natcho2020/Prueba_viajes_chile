@@ -31,6 +31,7 @@
 </head>
 
 <body>
+    <!--Uso Bootstrap (1)-->
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div id="nav-viajes" class="container">
@@ -49,7 +50,7 @@
                         <a class="nav-link active" href="#qs">¿Quienes Somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Nosotros</a>
+                        <a class="nav-link active" href="#lugares">Lugares Interesantes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#boton">Contacto</a>
@@ -63,6 +64,7 @@
 
     <header class="section">
         <div class="row">
+            <!--Uso Bootstrap Js(1)-->
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -76,132 +78,168 @@
                     <div class="carousel-item active">
                         <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Llamas_desierto">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Lore</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium aperiam, modi
+                                quisquam incidunt nulla minima itaque voluptas voluptate qui esse fugit atque quasi
+                                veritatis soluta fuga officia voluptatem culpa provident.</p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="Moai">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Lore</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestias suscipit
+                                excepturi inventore quam ullam repellendus voluptas qui voluptates? Nostrum corrupti
+                                facere accusamus pariatur placeat aliquam, omnis delectus odio molestiae.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguinos">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Lore</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident in, cumque dolorum
+                                repellendus hic facere delectus consequuntur, dolores veritatis vitae veniam molestias,
+                                impedit laudantium distinctio adipisci laborum inventore dicta repudiandae?</p>
                         </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
         </div>
     </header>
 
-    <!--Section ¿Quienes Somos?-->
 
-    <div id="qs">
-        <section class="section pt-3">
+
+
+
+    <!--Section ¿Quienes Somos?-->
+    <!--Uso Bootstrap (2)-->
+
+    <section class="section pt-3">
+        <div id="qs">
             <div class="container">
                 <div class="row d-none d-sm-block">
                     <div class="row">
-
                         <h1>¿Quienes Somos?</h1>
                         <div class="col">
+                            <!--Uso Font-Awesome-->
                             <div id="caja_icon"><i class="fa-solid fa-plane"></i> </div>
                             <div class="text_section">
-                                <p>Lorem ipsum dolor sit amet cuptatibe qui possimus incidunt dolorem eaque totam quo?
-                                    Ipsum
-                                    eveniet
-                                    velit vero quisquam sint explicabo voluptatum pariatur?lo</p>
+                                <!--Uso Bootstrap JS(2)-->
+                                <p class="muted">Lorem ipsum dolor sit amet consectetur <a
+                                        href="https://www.chile.travel/planviajarachile/" data-bs-toggle="tooltip"
+                                        data-bs-title="Compra tus pasajes">ahora!</a>
+                                    adipisicing elit. Dolor aliquid quas officia nulla molestias iste laborum doloremque
+                                    quos illum soluta optio
+                                    repudiandae, exercitationem dicta consequatur explicabo? Voluptatum molestias
+                                    blanditiis eaque.
+                                </p>
                             </div>
                         </div>
                         <div class="col">
                             <div class="text_section">
-                                <p>Lorem ipsum dolor sit amet cuptatibe qui possimus incidunt dolorem eaque totam quo?
-                                    Ipsum
-                                    eveniet
-                                    velit vero quisquam
-                                    sint explicabo voluptatum pariatur?</p>
+                                <p class="muted">Lorem ipsum dolor sit amet consectetur <a
+                                        href="https://es.wikipedia.org/wiki/Anexo:Volcanes_de_Chile"
+                                        data-bs-toggle="tooltip" data-bs-title="¿Quieres saber mas?">Volcan</a>
+                                    adipisicing elit. Dolor aliquid quas officia nulla molestias iste laborum doloremque
+                                    quos illum soluta optio
+                                    repudiandae, exercitationem dicta consequatur explicabo? Voluptatum molestias
+                                    blanditiis eaque.
+                                </p>
                             </div>
                             <div id="caja_icon"><i class="fa-solid fa-volcano"></i> </div>
                         </div>
                         <div class="col">
                             <div id="caja_icon"><i class="fa-solid fa-route"></i> </div>
                             <div class="text_section">
-                                <p>Lorem ipsum dolor sit amet cuptatibe qui possimus incidunt dolorem eaque totam quo?
-                                    Ipsum
-                                    eveniet
-                                    velit vero quisquam
-                                    sint explicabo voluptatum pariatur?</p>
+                                <p class="muted">Lorem ipsum dolor sit amet consectetur <a
+                                        href="https://www.google.com/maps" data-bs-toggle="tooltip"
+                                        data-bs-title="¿Como llegar?">Empieza!</a>
+                                    adipisicing elit. Dolor aliquid quas officia nulla molestias iste laborum doloremque
+                                    quos illum soluta optio
+                                    repudiandae, exercitationem dicta consequatur explicabo? Voluptatum molestias
+                                    blanditiis eaque.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-        </section>
-    </div>
+            </div>
+        </div>
+    </section>
 
+
+    <!--Sección Cartas-->
     <!--Destacados_cards-->
+    <!--Uso Bootstrap (3)-->
     <section class="section pt-3">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card mb-3">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="Lago">
-                        <div class="card-body">
-                            <h5 class="card-title">Lore</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vitae
-                                ipsa deserunt aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam qui,
-                                molestias minima libero quo voluptates nihil nulla deleniti..
+        <div id="lugares">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="Lago">
+                            <div class="card-body">
+                                <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Click Aquí!">Lore</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                    vitae
+                                    ipsa deserunt aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam
+                                    qui,
+                                    molestias minima libero quo voluptates nihil nulla deleniti..
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="Lago">
-                        <div class="card-body">
-                            <h5 class="card-title">Lore</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vitae
-                                ipsa deserunt aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam qui,
-                                molestias minima libero quo voluptates nihil nulla deleniti..
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="Lago">
+                            <div class="card-body">
+                                <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Si! Aquí!">Lore</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                    vitae
+                                    ipsa deserunt aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam
+                                    qui,
+                                    molestias minima libero quo voluptates nihil nulla deleniti..
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="Desierto">
-                        <div class="card-body">
-                            <h5 class="card-title">Lore</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vitae
-                                ipsa deserunt
-                                aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam qui, molestias
-                                minima libero quo
-                                voluptates nihil nulla deleniti..
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="Desierto">
+                            <div class="card-body">
+                                <!--Uso Bootstrap JS(3)-->
+                                <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Aquí No!">Lore</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                    vitae
+                                    ipsa deserunt
+                                    aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam qui, molestias
+                                    minima libero quo
+                                    voluptates nihil nulla deleniti..
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque">
-                        <div class="card-body">
-                            <h5 class="card-title">Lore</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vitae
-                                ipsa deserunt
-                                aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam qui, molestias
-                                minima libero quo
-                                voluptates nihil nulla deleniti..
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque">
+                            <div class="card-body">
+                                <h5 class="card-title" data-bs-toggle="tooltip" data-bs-title="Era Broma!">Lore</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                                    vitae
+                                    ipsa deserunt
+                                    aperiam voluptatem omnis necessitatibus nostrum ad fugit illo ipsam qui, molestias
+                                    minima libero quo
+                                    voluptates nihil nulla deleniti..
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -211,6 +249,7 @@
 
     <section class="section pt-3">
         <div class="container">
+            <!--Uso Bootstrap (4)-->
             <form>
                 <div class="mb-3">
                     <label for="exampleInputName" class="form-label">Nombre</label>
@@ -226,6 +265,7 @@
                 </div>
 
                 <!--Uso Jquery para mostrar mensaje al presionar boton-->
+                <!--Uso Bootstrap (5)-->
                 <button type="submit" class="btn">
                     <class id="boton">Enviar</class>
                 </button>
@@ -241,6 +281,7 @@
                     <div class="text">VIAJES CHILE</div>
                 </div>
                 <div class="col">
+                    <!--Uso de Font-Awesome-->
                     <div class="icon-section">
                         <icono><a href="https://www.github.com/" target=_blank><i
                                     class="fa-brands fa-square-github"></a></i></icono>
