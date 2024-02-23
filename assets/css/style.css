@@ -3,6 +3,7 @@
 body {
     background-color: black;
     color: white;
+
 }
 
 /*Extender el Carrusel en el Header*/
@@ -15,7 +16,7 @@ header {
 
 /*Ajustes Navbar*/
 .navbar {
-    background-color: grey;
+    background-color: transparent;
 
 }
 
@@ -57,7 +58,19 @@ header {
 .card {
     background-color: aqua;
     color: white;
+    align-items: center;
+
 }
+
+/*La unica solucion que encontre para ajustar el tamaño de todas las imagenes*/
+
+.card-img-top {
+
+    width: 100%;
+    height: 200px !important;
+    object-fit: cover;
+}
+
 
 #caja_icon {
     background-color: aqua;
